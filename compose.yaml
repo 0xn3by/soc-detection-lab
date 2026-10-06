@@ -1,0 +1,19 @@
+services:
+  splunk:
+    image: ${SPLUNK_IMAGE:-splunk/splunk:10.0.0}
+    hostname: soc-splunk
+    environment:
+      SPLUNK_START_ARGS: ${SPLUNK_START_ARGS:?Read setup/splunk-setup.md and set license acceptance}
+      SPLUNK_GENERAL_TERMS: ${SPLUNK_GENERAL_TERMS:?Read setup/splunk-setup.md and set terms acceptance}
+      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD:?Set a unique password in .env}
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - splunk-etc:/opt/splunk/etc
+      - splunk-var:/opt/splunk/var
+      - ./setup/splunk-app:/opt/splunk/etc/apps/soc_lab:ro,Z
+      - ./logs:/lab/logs:ro,Z
+    restart: unless-stopped
+volumes:
+  splunk-etc:
+  splunk-var:
