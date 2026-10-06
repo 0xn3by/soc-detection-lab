@@ -1,5 +1,8 @@
 # Capture real Splunk screenshots
 
+Audit 2026-10-06: this directory contains no screenshots. The existing SVG
+branding is decoration, not Splunk output. See [current validation](../docs/VALIDATION.md).
+
 No screenshots are fabricated or included yet. Capture these manually after
 [live verification](../setup/log-ingestion.md). Show the query, selected time
 range, and enough results to support the claim. Set the account time zone to UTC.
