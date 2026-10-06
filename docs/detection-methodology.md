@@ -62,7 +62,7 @@ Review both false alerts and missed events after each change.
   negative controls, safe payload, and source-field contracts.
 - [offline findings](../reports/offline-findings.json): repeatable local rule
   reference results, explicitly labeled offline.
-- [validation record](validation.md): what was actually executed and outstanding.
+- [validation record](VALIDATION.md): what was actually executed and outstanding.
 - [screenshots guide](../screenshots/README.md): evidence to capture from Splunk.
 
 Four fixture findings are an acceptance check, not precision/recall, a detection
