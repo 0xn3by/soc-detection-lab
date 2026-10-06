@@ -1,0 +1,6 @@
+index=soc_lab sourcetype="soc:json" event_type="process_start"
+| dedup event_uid
+| where in(lower(process), "powershell.exe", "pwsh.exe")
+| where match(command_line, "(?i)-(enc|encodedcommand)\\b") OR match(command_line, "(?i)-executionpolicy\\s+bypass\\b")
+| table _time event_uid hostname username process parent_process process_guid command_line
+| sort _time
