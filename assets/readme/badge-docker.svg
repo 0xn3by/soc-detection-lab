@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="30" viewBox="0 0 170 30" role="img" aria-labelledby="title description">
+  <title id="title">Docker: Compose</title>
+  <desc id="description">Docker Compose defines the Splunk service and its storage.</desc>
+  <defs><clipPath id="rounded"><rect width="170" height="30" rx="6" /></clipPath></defs>
+  <g clip-path="url(#rounded)">
+    <rect width="170" height="30" fill="#152334" />
+    <rect x="75" width="95" height="30" fill="#193952" />
+  </g>
+  <rect x="0.5" y="0.5" width="169" height="29" rx="5.5" fill="none" stroke="#405367" />
+  <g font-family="DejaVu Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+    <text x="37.5" y="19" fill="#e2e8f0">Docker</text>
+    <text x="122.5" y="19" fill="#b7ddf9" font-weight="700">Compose</text>
+  </g>
+</svg>
