@@ -1,0 +1,6 @@
+index=soc_lab sourcetype="soc:json" event_type="authentication" result="failure"
+| dedup event_uid
+| bin _time span=5m
+| stats count AS failed_attempts values(event_uid) AS evidence BY _time hostname username src_ip
+| where failed_attempts >= 5
+| sort _time
