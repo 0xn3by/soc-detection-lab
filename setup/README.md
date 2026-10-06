@@ -22,5 +22,5 @@ and endpoint-enriched firewall activity; they are not collected from this host.
 - Fourth hour: report review, screenshot capture, interview rehearsal.
 - Reserve remaining time for ingestion troubleshooting. The dashboard is optional.
 
-Live validation is recorded separately in [validation](../docs/validation.md).
+Live validation is recorded separately in [validation](../docs/VALIDATION.md).
 Passing offline checks does not prove that SPL executed successfully in Splunk.
