@@ -1,4 +1,7 @@
-# Validation record and acceptance checklist
+# Historical validation record and acceptance checklist
+
+Historical build record. See [current per-scenario validation](VALIDATION.md) for
+this audit's executed checks and runtime restrictions.
 
 ## Local validation
 
