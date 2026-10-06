@@ -1,0 +1,6 @@
+index=soc_lab sourcetype="soc:json" event_type="network_connection"
+| dedup event_uid
+| bin _time span=1m
+| stats count AS attempts dc(dest_port) AS distinct_ports values(dest_port) AS ports values(result) AS outcomes values(event_uid) AS evidence BY _time hostname username src_ip dest_ip protocol
+| where attempts >= 20 AND distinct_ports >= 10
+| sort _time
