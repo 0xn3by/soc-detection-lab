@@ -1,0 +1,4 @@
+index=soc_lab sourcetype="soc:json" event_type="group_member_added" result="success" group_sid="S-1-5-32-544"
+| dedup event_uid
+| table _time event_uid hostname actor target_user group_name group_sid logon_id
+| sort _time
