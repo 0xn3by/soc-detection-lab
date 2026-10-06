@@ -1,0 +1,7 @@
+{
+  "scope": "Working-tree publishable files; pattern scan is not a complete secret audit",
+  "file_count": 56,
+  "markdown_links_and_anchors_checked": 98,
+  "issues": [],
+  "high_confidence_secret_pattern_candidates": []
+}
