@@ -1,41 +1,25 @@
-# Resume wording — personal security project
+# Resume evidence — personal project
 
-## Three bullets supported by the repository today
+## Three bullet options
 
-- Built a personal Splunk SOC lab with Docker configuration, deterministic Python
-  telemetry generators, and four SPL detections covering authentication failures,
-  suspicious PowerShell, local administrator changes, and scanning-like activity.
-- Investigated four synthetic security scenarios by correlating event timelines,
-  identities, process context, and outcomes; documented false-positive hypotheses,
-  severity rationale, MITRE ATT&CK mappings, and escalation recommendations.
-- Implemented repeatable evidence-based report drafts and local tests for detection
-  thresholds, benign controls, duplicate events, and log-field consistency across
-  47 synthetic events.
+- Built a Splunk-oriented personal SOC lab with four SPL searches and Python generators producing 47 reproducible synthetic authentication, PowerShell, account-change and network events.
+- Investigated four synthetic security scenarios, correlating event timelines, identities and outcomes to document false-positive considerations, severity and escalation recommendations.
+- Validated generators, field contracts, reference detection thresholds and evidence-based report generation through 13 passing local tests; explicitly tracked pending live Splunk verification.
 
 ## Concise project description
 
-**SOC Detection & Incident Investigation Lab — Personal Project:** A reproducible
-Splunk-oriented security lab using Python-generated Linux/Windows-style telemetry,
-four behavior-based SPL searches, and documented analyst investigations from
-triage through severity and escalation decisions.
+Personal Splunk/SIEM detection and investigation lab with deterministic telemetry, four SPL searches and documented analyst decisions from triage through incident reporting.
 
-## Technologies
+## Technology list
 
-Splunk SPL and app configuration, Python standard library, Docker Compose,
-Linux/Fedora tooling, JSON Lines, normalized Windows/Sysmon-like telemetry,
-Markdown, and MITRE ATT&CK references.
+Splunk SPL/app configuration, Python standard library, Docker Compose, Linux, JSON Lines, synthetic Windows/Sysmon-style and Linux-style events, Markdown and MITRE ATT&CK references.
 
-## Skills demonstrated
+## Strongest measured facts
 
-SIEM ingestion design and field validation; suspicious-activity detection; log
-review; process/identity/time correlation; false-positive assessment; incident
-classification; severity and escalation reasoning; technical reporting;
-reproducible automation and testing.
+- 47 generated fixture records: 12 authentication, 3 PowerShell, 4 account/group and 28 network.
+- Four offline reference findings, including eight authentication failures and 24 blocked attempts to 24 ports.
+- 13 tests passed; four report drafts generated with overwrite refusal checked.
 
-## Honesty check before submitting
+[Executed output](../reports/audit-local.json) · [Validation](VALIDATION.md).
 
-The current bullets describe implemented artifacts and synthetic investigations.
-Live Splunk ingestion/search validation is pending in [validation](validation.md).
-After verifying it yourself, you may truthfully add “ingested and searched 47
-synthetic events in Splunk.” Do not claim live monitoring experience, production
-incident response, employer impact, detection rates, or response-time reductions.
+These counts describe fixtures and local checks, not Splunk results, detection accuracy or production impact. Live Splunk ingestion/search execution is NOT VERIFIED. Do not claim enterprise monitoring, real incidents, actual escalations or employment experience.
