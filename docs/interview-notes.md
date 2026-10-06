@@ -123,7 +123,7 @@ and retest the original positives and benign controls.
 
 Python log generation, fixture analysis, report drafting, Splunk input/index/
 parsing configuration, four SPL searches, a simple event dashboard, and four
-worked investigations. Cite [validation](validation.md) for actual executed checks.
+worked investigations. Cite [validation](VALIDATION.md) for actual executed checks.
 Do not claim measured detection accuracy or production response-time improvements.
 
 ## Five-minute demonstration
