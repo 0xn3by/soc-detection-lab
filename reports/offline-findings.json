@@ -1,0 +1,63 @@
+{
+  "validation": "offline reference only",
+  "event_count": 47,
+  "findings": [
+    {
+      "detection": "admin-account-creation",
+      "evidence": [
+        "admin-account-creation-003"
+      ]
+    },
+    {
+      "detection": "brute-force",
+      "failed_attempts": 8,
+      "evidence": [
+        "brute-force-001",
+        "brute-force-002",
+        "brute-force-003",
+        "brute-force-004",
+        "brute-force-005",
+        "brute-force-006",
+        "brute-force-007",
+        "brute-force-008"
+      ]
+    },
+    {
+      "detection": "suspicious-network",
+      "attempts": 24,
+      "distinct_ports": 24,
+      "evidence": [
+        "suspicious-network-001",
+        "suspicious-network-002",
+        "suspicious-network-003",
+        "suspicious-network-004",
+        "suspicious-network-005",
+        "suspicious-network-006",
+        "suspicious-network-007",
+        "suspicious-network-008",
+        "suspicious-network-009",
+        "suspicious-network-010",
+        "suspicious-network-011",
+        "suspicious-network-012",
+        "suspicious-network-013",
+        "suspicious-network-014",
+        "suspicious-network-015",
+        "suspicious-network-016",
+        "suspicious-network-017",
+        "suspicious-network-018",
+        "suspicious-network-019",
+        "suspicious-network-020",
+        "suspicious-network-021",
+        "suspicious-network-022",
+        "suspicious-network-023",
+        "suspicious-network-024"
+      ]
+    },
+    {
+      "detection": "suspicious-powershell",
+      "evidence": [
+        "suspicious-powershell-001"
+      ]
+    }
+  ]
+}
