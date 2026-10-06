@@ -1,4 +1,21 @@
-# SOC Detection & Incident Investigation Lab
+<p align="center">
+  <img src="assets/readme/banner.svg" alt="SOC Detection and Incident Investigation Lab: a personal security lab following synthetic logs through detection, evidence correlation, and reporting" width="1200">
+</p>
+
+<h1 align="center">SOC Detection &amp; Incident Investigation Lab</h1>
+
+<p align="center">
+  <a href="compose.yaml"><img src="assets/readme/badge-splunk.svg" alt="Configured Splunk image: 10.0.0 pinned; see Docker Compose configuration" height="30"></a>
+  <a href="scripts/generate_events.py"><img src="assets/readme/badge-python.svg" alt="Python generators use only the standard library; view generator source" height="30"></a>
+  <a href="compose.yaml"><img src="assets/readme/badge-docker.svg" alt="Docker Compose setup; view the service and volume configuration" height="30"></a>
+</p>
+<p align="center">
+  <a href="docs/validation.md#local-validation"><img src="assets/readme/badge-local-checks.svg" alt="Local validation: 13 tests passed, not a CI status; view recorded evidence" height="30"></a>
+  <a href="docs/validation.md#pending-live-verification"><img src="assets/readme/badge-live-splunk.svg" alt="Live Splunk execution is unverified; view outstanding verification steps" height="30"></a>
+</p>
+<p align="center">
+  <sub>Local SVG badges describe repository configuration and recorded validation; they are not live CI indicators.</sub>
+</p>
 
 **A personal security lab for practicing detection, evidence correlation, and
 defensible incident decisions with Splunk.** Four synthetic scenarios move from
