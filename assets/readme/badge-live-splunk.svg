@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="30" viewBox="0 0 228 30" role="img" aria-labelledby="title description">
+  <title id="title">Live Splunk: unverified</title>
+  <desc id="description">Splunk startup, ingestion, and SPL execution still require live verification.</desc>
+  <defs><clipPath id="rounded"><rect width="228" height="30" rx="6" /></clipPath></defs>
+  <g clip-path="url(#rounded)">
+    <rect width="228" height="30" fill="#152334" />
+    <rect x="106" width="122" height="30" fill="#493716" />
+  </g>
+  <rect x="0.5" y="0.5" width="227" height="29" rx="5.5" fill="none" stroke="#405367" />
+  <g font-family="DejaVu Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+    <text x="53" y="19" fill="#e2e8f0">Live Splunk</text>
+    <text x="167" y="19" fill="#f5d58b" font-weight="700">unverified</text>
+  </g>
+</svg>
